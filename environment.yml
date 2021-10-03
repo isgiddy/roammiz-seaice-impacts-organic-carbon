@@ -1,0 +1,17 @@
+name: mizExport
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - glidertools
+  - gsw
+  - cartopy
+  - requests
+  - seaborn
+  - jupyterlab
+  - cmocean
+  - xesmf
+  - pip:
+      - airsea
+prefix: /opt/anaconda3/envs/mizExport
