@@ -543,10 +543,14 @@ def compute_cphyto(bbp):
 def platt(chl,par,kd,daylength):
     
     """
-    Simple implementation of the PLATT model
+    Simple implementation of the PLATT model (1993; https://doi.org/10.1029/93JC01001), 
+    based on Thomalla et al., 2015 (https://doi.org/10.1093/icesjms/fsv105)
+    
+    Optimised for the Southern Ocean
     """
     # PLATT
-
+    
+    # parameters updated from regressions of productivity to chl compute from in situ incubation experiments
     global_alpha_slope = 0.649                
     global_alpha_exponent =  0.865
     global_pmax_slope = 49.934
@@ -556,14 +560,12 @@ def platt(chl,par,kd,daylength):
     alpha = global_alpha_slope * (chl**global_alpha_exponent) 
     pmax = global_pmax_slope * (chl**global_pmax_exponent)
 
-
-    pars=par*((60*60*daylength)/1e6)# converts to Einsteins per day
     midday_irradiance = par
     adaptation_parameter = pmax/alpha
 
     p = pmax*(1-np.exp(-midday_irradiance/adaptation_parameter)) 
 
-    ek = ((pmax/alpha) * 60 * 60 )/ 1e6   
+    ek = ((pmax/alpha) * 60 * 60 )/ 1e6   # includes conversion of PAR to Einsteins per day
     im = par / ek
 
     irradiance_daily = midday_irradiance/6
