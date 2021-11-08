@@ -8,12 +8,12 @@ The study aims to quantify and understand drivers of interannual variability in 
 
 ### Workflow
 
-The data processing routines are found in the folder notebooks/data_processing. After processing the data, the analyses (located in the folder notebooks) follows as:  
+The analyses (located in the folder notebooks) follows as:  
 
-1) [x] Characterisation of the region   (Figure 1) - [01_Studysite.ipynb](01_Studysite.ipynb)
-2) [x] Interannual phenology based on satellite and reanalysis products as well as two SOCCOM bgc-argo floats   (Figure 2) - [02_Phenology.ipynb](02_Phenology.ipynb)
-3) [x] Calculation of Primary Productivity from glider deployments  - [03_PrimaryProductivity.ipynb](03_PrimaryProductivity.ipynb)
-4) [x] Calculation of large particle carbon export flux from the glider deployments. - [04_Export.ipynb](04_Export.ipynb)
+1) [x] Characterisation of the region   (Figure 1) - [01_Studysite.ipynb](notebooks/01_Studysite.ipynb)
+2) [x] Interannual phenology based on satellite and reanalysis products as well as two SOCCOM bgc-argo floats   (Figure 2) - [02_Phenology.ipynb](notebooks/02_Phenology.ipynb)
+3) [x] Calculation of Primary Productivity from glider deployments  - [03_PrimaryProductivity.ipynb](notebooks/03_PrimaryProductivity.ipynb)
+4) [x] Calculation of large particle carbon export flux from the glider deployments. - [04_Export.ipynb](notebooks/04_Export.ipynb)
 5) [x] Comparison of Primary Prroductivity models to export - [05_PP_export_methods_comparison.ipynb](/notebooks/05_PP_export_methods_comparison.ipynb)
 6) [x] Analysis of the variation of PP and export in the two high resolution glider deployments   (Figure 3) - [05_VerticalFlux.ipynb](/notebooks/05_VerticalFlux.ipynb)
 
@@ -25,11 +25,9 @@ The Primary Production CbPM model was adapted from the code written by [Lionel A
 
 While some of this code is written generically, most will require adaptation if is it to be used on different data. The functions which were developed specifically for this work are located in the /src folder and separated into PrimaryProductionTools.py (called in the notebook 03_PrimaryProductivity) and ExportTools.py (called in the notebook 04_Export.ipynb). Some of the figures in the manuscript were concatenated separately such that the output in the notebooks here do not reproduce the same figure formats as seen in the manuscript.     
 
-All derived data and figures are located in [/results/data](/results/data) and [/results/figures](/results/figures)  
-
 ### Data sources
 
-The raw data can be downloaded via ftp from ftp.ssh.roammiz.com/giddy_2021 
+The raw data will be made available via NCEI in the coming weeks. 
 
 Below is a list of auxillary data sources that are used in the analysis:
 
@@ -41,5 +39,3 @@ Below is a list of auxillary data sources that are used in the analysis:
    - [Chlorophyll a](https://www.oceancolour.org/)
    - [Photosynthetically Active Radiation](https://oceandata.sci.gsfc.nasa.gov/)
     
-
-TODO: Make sure links are working
