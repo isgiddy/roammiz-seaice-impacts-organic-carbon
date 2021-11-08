@@ -2,6 +2,8 @@
 
 This is a repository for the data analyses performed in Giddy et al. (submitted to GRL). Its purpose is to demonstrate the workflow and record all analyses performed in accompaniment with the manuscript.
 
+This code is subject to change during the review process. 
+
 ### Summary 
 
 The study aims to quantify and understand drivers of interannual variability in carbon export in the MIZ, using novel high resolution observations from sensors mounted on gliders. Variability in Primary Production and export is linked to variability in sea ice, but this link is not linear. We find that remineralization is an important variable in determining carbon export and is influenced by community composition and the density structure of the water column.  
@@ -10,12 +12,12 @@ The study aims to quantify and understand drivers of interannual variability in 
 
 The analyses (located in the folder notebooks) follows as:  
 
-1) [x] Characterisation of the region   (Figure 1) - [01_Studysite.ipynb](notebooks/01_Studysite.ipynb)
-2) [x] Interannual phenology based on satellite and reanalysis products as well as two SOCCOM bgc-argo floats   (Figure 2) - [02_Phenology.ipynb](notebooks/02_Phenology.ipynb)
-3) [x] Calculation of Primary Productivity from glider deployments  - [03_PrimaryProductivity.ipynb](notebooks/03_PrimaryProductivity.ipynb)
-4) [x] Calculation of large particle carbon export flux from the glider deployments. - [04_Export.ipynb](notebooks/04_Export.ipynb)
-5) [x] Comparison of Primary Prroductivity models to export - [05_PP_export_methods_comparison.ipynb](/notebooks/05_PP_export_methods_comparison.ipynb)
-6) [x] Analysis of the variation of PP and export in the two high resolution glider deployments   (Figure 3) - [05_VerticalFlux.ipynb](/notebooks/05_VerticalFlux.ipynb)
+1) Characterisation of the region   (Figure 1) - [01_Studysite.ipynb](notebooks/01_Studysite.ipynb)
+2) Interannual phenology based on satellite and reanalysis products as well as two SOCCOM bgc-argo floats   (Figure 2) - [02_Phenology.ipynb](notebooks/02_Phenology.ipynb)
+3) Calculation of Primary Productivity from glider deployments  - [03_PrimaryProductivity.ipynb](notebooks/03_PrimaryProductivity.ipynb)
+4) Calculation of large particle carbon export flux from the glider deployments. - [04_Export.ipynb](notebooks/04_Export.ipynb)
+5) Comparison of Primary Prroductivity models to export - [05_PP_export_methods_comparison.ipynb](/notebooks/05_PP_export_methods_comparison.ipynb)
+6) Analysis of the variation of PP and export in the two high resolution glider deployments   (Figure 3) - [05_VerticalFlux.ipynb](/notebooks/05_VerticalFlux.ipynb)
 
 The conda environment in which this code was run is provided within the repository (doesnt seem to be working well). If you want to just have a look through the code, .html files have been generated that can be viewed in any browser. 
 
