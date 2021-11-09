@@ -1,7 +1,7 @@
 # Sea-ice impacts inter-annual variability in bloom phenology and carbon export
 *Authors: I.S. Giddy; S-A. Nicholson, B. Y. Queste, S. Thomalla, S. Swart*
 
-[![DOI](https://zenodo.org/badge/5655923.svg)](https://zenodo.org/badge/latestdoi/5655923)
+[![DOI](https://zenodo.org/badge/413127430.svg)](https://zenodo.org/badge/latestdoi/413127430)
 
 This is a repository for the data analyses performed in Giddy et al. (submitted to GRL). Its purpose is to demonstrate the workflow and record all analyses performed in accompaniment with the manuscript.
 
