@@ -22,7 +22,7 @@ The analyses (located in the folder notebooks) follows as:
 5) Comparison of Primary Prroductivity models to export - [05_PP_export_methods_comparison.ipynb](/notebooks/05_PP_export_methods_comparison.ipynb)
 6) Analysis of the variation of PP and export in the two high resolution glider deployments   (Figure 3) - [05_VerticalFlux.ipynb](/notebooks/05_VerticalFlux.ipynb)
 
-The conda environment which lists the dependencies for this code is provide.
+The conda environment which lists the dependencies for this code is provided.
 
 Much of the analyses was performed with the aid of tools prewritten in [GliderTools](https://github.com/GliderToolsCommunity/GliderTools). 
 
